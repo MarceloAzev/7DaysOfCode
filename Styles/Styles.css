@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+:root{
+--fonte-primaria: 'Karla', sans-serif;
+
+}
+
+body{
+    background: #A7D7C5;
+    
+}
+
+.corpo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.box{
+   
+    width: 500px;
+    height: 700px;
+    /* Form Bg */
+    background: #F6FBF9;
+    border-radius: 32px;
+    display: grid;
+    justify-content: center;
+    gap: 12px;
+}
+
+.titulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-align: center;
+}
+.pergunta{
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.resposta{
+    width: 80%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 55px;
+    margin-left: 12%;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 0.94rem;
+    font-style: normal;
+}
+
+.botao{
+    background: #84C7AE; 
+    border-radius: 15px;
+    width: 40%;
+    height: 59px;
+    font-family: var(--fonte-primaria);
+    font-size: 1.375rem;
+    color: #fff;
+    margin-left: 30%;
+
+}
+
+.texto{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 0.94rem;
+    font-style: normal;
+}
+.perguntaNova{
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 500px;
+}
+
+.box2{
+    width: 500px;
+    height: 300px;
+    /* Form Bg */
+    background: #F6FBF9;
+    border-radius: 32px;
+    display: grid;
+    justify-content: center;
+}
+
+.escolha{
+    background: #84C7AE; 
+    border-radius: 15px;
+    width: 40%;
+    height: 59px;
+    font-family: var(--fonte-primaria);
+    font-size: 1.375rem;
+    color: #fff;
+    margin-left: 5%;
+}

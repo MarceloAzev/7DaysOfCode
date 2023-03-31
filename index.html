@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/Styles.css">
+    <title>Questionario</title>
+</head>
+<body>
+    
+    <main class="corpo">
+        <form id="formulario">
+            <div class="box">
+                <h1 class="titulo">Questionário</h1>
+                <h2 class="pergunta">Qual o seu nome?</h2>
+                <input id="pergunta1" class="resposta">
+                <h2 class="pergunta">Qual a sua idade?</h2>
+                <input id="pergunta2" class="resposta">
+                <h2 class="pergunta">Qual linguagem de programação <br> você está estudando?</h2>
+                <input id="pergunta3" class="resposta">
+                <button class="botao" id="botao">Enviar</button>
+                
+            </div>
+        </form>
+        <form id="formulario2">
+            <div class="box2" id="box2" style="display: none;">
+                <h1 class="titulo">Questionário</h1>
+                <h2 id="PerguntaNova">Você gosta de estudar </h2>
+                <div class="botoes">
+                    <button class="escolha" id="escolha" value="sim">SIM</button>
+                    <button class="escolha" id="escolha1" value="nao">Não</button>
+                </div>
+                <p id="sim" style="display: none;">Muito bom! Continue estudando e você terá muito sucesso.</p>
+                <p id="nao" style="display: none;">Ahh que pena... Já tentou aprender outras linguagens</p>
+            </div>
+        </form>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
